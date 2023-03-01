@@ -4,7 +4,7 @@
 
 
 bool checkPrime(uint64_t value) {
-// вставьте код функции
+// вставьте код функции 
     if (value <= 1) 
     {
       return false;
