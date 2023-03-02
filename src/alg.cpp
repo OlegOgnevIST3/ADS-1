@@ -19,20 +19,21 @@ bool checkPrime(uint64_t value) {
 uint64_t nPrime(uint64_t n) {
 // вставьте код функции
     int count = 1;
-    uint64_t s = 2;
+    uint64_t prime = 2;
     for (int i = 3; count != n; i++) {
         if (checkPrime(i)) {
-            s = i;
+            prime = i;
             count++;
         }
     }
-    return s;
+    return prime;
 }
 
 uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
     uint64_t i;
     for (i = value + 1; !checkPrime(i); i++) {
+        
     }
     return i;
 }
