@@ -33,7 +33,6 @@ uint64_t nextPrime(uint64_t value) {
 // вставьте код функции
     uint64_t i;
     for (i = value + 1; !checkPrime(i); i++) {
-        
     }
     return i;
 }
